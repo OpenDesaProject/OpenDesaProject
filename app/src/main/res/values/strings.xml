@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">OpenDesa</string>
+    <string name="app_name">DemoDK OpenDesa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hak_cipta_1"><b>Hak Cipta &#169; 2017 <font color='#29B6F6'>KOMPAK</font>, 2018-2022</b></string>
+    <string name="hak_cipta_2"><b><font color='#29B6F6'>OpenDesa</font></b></string>
+    <string name="hak_cipta_3">Hak cipta dilindungi.</string>
+    <string name="desa_dan_kelurahan"><b>DESA DAN KELURAHAN</b></string>
+    <string name="ikuti_kami"><b>IKUTI KAMI</b></string>
+    <string name="kantor_kecamatan_gading_rejo"><b>KANTOR KECAMATAN GADING REJO</b></string>
+    <string name="gading_rejo">Gading Rejo</string>
+    <string name="telephone">27674</string>
+    <string name="email">admin@mail.com</string>
+    <string name="phone">123456</string>
+
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
 </resources>
