@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "OpenDesa"
 include(":app")
+include(":core")
