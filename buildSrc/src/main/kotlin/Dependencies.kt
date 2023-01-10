@@ -20,6 +20,7 @@ object Dependencies {
     //jetpack compose
     private const val materialThree = "androidx.compose.material3:material3:${Versions.materialThree}"
     private const val materialTwo = "androidx.compose.material:material:${Versions.materialTwo}"
+    private const val themeAdapter = "com.google.accompanist:accompanist-themeadapter-material:${Versions.themeAdapter}"
     private const val composeRuntime = "androidx.compose.runtime:runtime:${Versions.composeVersion}"
     private const val composeFoundation = "androidx.compose.foundation:foundation:${Versions.composeVersion}"
     private const val runtimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.runtimeKtx}"
