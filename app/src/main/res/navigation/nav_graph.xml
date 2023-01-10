@@ -9,7 +9,11 @@
         android:id="@+id/nav_beranda"
         android:name="com.example.opendesa.ui.home.HomeFragment"
         android:label="Open Desa"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_beranda_to_complaintFragment"
+            app:destination="@id/complaintFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_berita_desa"
@@ -51,4 +55,9 @@
             android:name="currentPotensi"
             app:argType="com.example.opendesa.ui.potensi.data.Data" />
     </fragment>
+    <fragment
+        android:id="@+id/complaintFragment"
+        android:name="com.example.opendesa.ui.keluhan.ComplaintFragment"
+        android:label="fragment_complaint"
+        tools:layout="@layout/fragment_complaint" />
 </navigation>

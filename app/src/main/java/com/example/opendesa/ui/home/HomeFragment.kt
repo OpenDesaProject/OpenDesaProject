@@ -8,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
+import com.example.opendesa.R
 import com.example.opendesa.databinding.FragmentHomeBinding
 import com.example.opendesa.repository.Repository
 import dagger.hilt.android.AndroidEntryPoint
@@ -44,7 +46,9 @@ class HomeFragment : Fragment() {
         binding.submitIdKeluhan.setOnClickListener {
             getIdValue()
         }
-
+        binding.btnKeluhan.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_nav_beranda_to_complaintFragment)
+        }
     }
 
     override fun onDestroyView() {

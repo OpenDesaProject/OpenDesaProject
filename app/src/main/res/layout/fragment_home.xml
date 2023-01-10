@@ -140,6 +140,7 @@
                     <TableRow>
 
                         <Button
+                            android:id="@+id/btnKeluhan"
                             android:layout_weight="1"
                             android:backgroundTint="@color/orange"
                             android:textAllCaps="false"
