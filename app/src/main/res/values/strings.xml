@@ -26,5 +26,6 @@
     <string name="attachment">Lampiran</string>
     <string name="sikema">SIKEMA</string>
     <string name="send_complaint">Kirim Keluhan</string>
+    <string name="captcha">Kode Verifikasi</string>
 
 </resources>

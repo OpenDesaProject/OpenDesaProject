@@ -2,10 +2,9 @@ package com.example.opendesa.ui.keluhan.screen.create
 
 import com.example.core.data.source.remote.model.response.Complaint
 
-data class DetailScreenState(
-  val data: Complaint? = null,
-  val isSuccess: Boolean = false,
-  val isLoading: Boolean = false,
-  val hasError: Boolean = false,
-  val errorMessage: String? = null
-)
+sealed class DetailScreenState {
+  class Success(val data: Complaint): DetailScreenState()
+  object Loading: DetailScreenState()
+  object Empty: DetailScreenState()
+  class Error(val isImportant: Boolean, val message: String): DetailScreenState()
+}
