@@ -13,11 +13,12 @@ import com.example.opendesa.ui.potensi.api.PotensiApi
 import com.example.opendesa.ui.potensi.api.PotensiApiEndPoint
 import com.example.opendesa.R
 import com.example.opendesa.databinding.FragmentPotensiBinding
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-
+@AndroidEntryPoint
 class PotensiFragment : Fragment(R.layout.fragment_potensi) {
 
     private lateinit var binding: FragmentPotensiBinding
