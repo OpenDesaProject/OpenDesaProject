@@ -5,6 +5,7 @@ object Versions {
     const val composeVersion = "1.3.0"
     const val coreKtx = "1.7.0"
     const val materialThree = "1.0.0-alpha15"
+    const val materialTwo = "1.3.1"
     const val runtimeKtx = "2.3.1"
     const val activityCompose = "1.3.1"
     const val coilCompose = "2.2.1"

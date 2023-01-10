@@ -19,6 +19,7 @@ object Dependencies {
 
     //jetpack compose
     private const val materialThree = "androidx.compose.material3:material3:${Versions.materialThree}"
+    private const val materialTwo = "androidx.compose.material:material:${Versions.materialTwo}"
     private const val composeRuntime = "androidx.compose.runtime:runtime:${Versions.composeVersion}"
     private const val composeFoundation = "androidx.compose.foundation:foundation:${Versions.composeVersion}"
     private const val runtimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.runtimeKtx}"
@@ -73,6 +74,7 @@ object Dependencies {
         add(moshiConverter)
         add(coil)
         add(coreKtx)
+        add(materialTwo)
         add(materialThree)
         add(composeRuntime)
         add(composeFoundation)
