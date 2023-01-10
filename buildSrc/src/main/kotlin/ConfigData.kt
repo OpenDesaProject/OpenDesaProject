@@ -19,7 +19,7 @@ object ConfigData {
 
         var incrementNumber = 0
         val runTasks = gradle.startParameter.taskNames
-        if("assemble" in runTasks || "assembleRelease" in runTasks || "aR" in runTasks) {
+        if("assemble" in runTasks || "assembleRelease" in runTasks || "aR" in runTasks || "bundleRelease" in runTasks || ":app:bundleRelease" in runTasks) {
             incrementNumber = 1
         }
 

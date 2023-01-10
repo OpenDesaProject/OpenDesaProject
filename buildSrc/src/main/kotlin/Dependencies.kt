@@ -4,6 +4,20 @@ object Dependencies {
 
     //android ui
     private const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
+    private const val appCompact = "androidx.appcompat:appcompat:1.5.1"
+    private const val material = "com.google.android.material:material:1.7.0"
+    private const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+    private const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:2.5.3"
+    private const val navigationUi = "androidx.navigation:navigation-ui-ktx:2.5.3"
+    private const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
+    private const val legacySupport = "androidx.legacy:legacy-support-v4:1.0.0"
+    private const val glide = "com.github.bumptech.glide:glide:4.11.0"
+    private const val glideCompiler = "com.github.bumptech.glide:compiler:4.11.0"
+    private const val moshi = "com.squareup.moshi:moshi-kotlin:1.13.0"
+    private const val moshiConverter = "com.squareup.retrofit2:converter-moshi:2.9.0"
+    private const val coil = "io.coil-kt:coil:2.2.2"
+
+    //jetpack compose
     private const val materialThree = "androidx.compose.material3:material3:${Versions.materialThree}"
     private const val composeRuntime = "androidx.compose.runtime:runtime:${Versions.composeVersion}"
     private const val composeFoundation = "androidx.compose.foundation:foundation:${Versions.composeVersion}"
@@ -47,6 +61,17 @@ object Dependencies {
     private const val testManifest = "androidx.compose.ui:ui-test-manifest:${Versions.composeVersion}"
 
     val appLibraries = arrayListOf<String>().apply {
+        add(appCompact)
+        add(material)
+        add(constraintLayout)
+        add(navigationFragment)
+        add(navigationUi)
+        add(liveData)
+        add(legacySupport)
+        add(glide)
+        add(moshi)
+        add(moshiConverter)
+        add(coil)
         add(coreKtx)
         add(materialThree)
         add(composeRuntime)
@@ -85,6 +110,7 @@ object Dependencies {
 
     val kaptLibraries = arrayListOf<String>().apply {
         add(hiltCompiler)
+        add(glideCompiler)
     }
 
     val androidTestLibraries = arrayListOf<String>().apply {

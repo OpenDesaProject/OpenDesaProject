@@ -2,7 +2,7 @@ object Versions {
 
 
   //libs
-    const val composeVersion = "1.2.0-alpha01"
+    const val composeVersion = "1.3.0"
     const val coreKtx = "1.7.0"
     const val materialThree = "1.0.0-alpha15"
     const val runtimeKtx = "2.3.1"
@@ -23,6 +23,7 @@ object Versions {
     const val serializationJson = "1.3.2"
     const val timeAgo = "4.0.3"
     const val composeDialogs = "1.0.2"
+    const val navVersion = "2.5.2"
 
     //test
     const val junit = "4.13.2"
