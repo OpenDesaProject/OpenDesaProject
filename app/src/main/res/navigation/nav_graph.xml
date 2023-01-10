@@ -51,4 +51,20 @@
             android:name="currentPotensi"
             app:argType="com.example.opendesa.ui.potensi.data.Data" />
     </fragment>
+    <fragment
+        android:id="@+id/nav_geo"
+        android:name="com.example.opendesa.ui.profildesa.GeografisFragment"
+        android:label="GeografisFragment" />
+    <fragment
+        android:id="@+id/nav_sejarah"
+        android:name="com.example.opendesa.ui.profildesa.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/nav_sp"
+        android:name="com.example.opendesa.ui.profildesa.StrukturFragment"
+        android:label="StrukturFragment" />
+    <fragment
+        android:id="@+id/nav_vm"
+        android:name="com.example.opendesa.ui.profildesa.VisiMisiFragment"
+        android:label="VisiMisiFragment" />
 </navigation>
