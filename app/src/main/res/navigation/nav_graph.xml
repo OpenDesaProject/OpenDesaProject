@@ -58,6 +58,5 @@
     <fragment
         android:id="@+id/complaintFragment"
         android:name="com.example.opendesa.ui.keluhan.ComplaintFragment"
-        android:label="fragment_complaint"
-        tools:layout="@layout/fragment_complaint" />
+        android:label="Komplain" />
 </navigation>
