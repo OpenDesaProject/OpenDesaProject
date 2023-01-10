@@ -64,6 +64,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":core"))
     implementation(Dependencies.appLibraries)
     kapt(Dependencies.kaptLibraries)
     ksp(Dependencies.kspLibraries)
