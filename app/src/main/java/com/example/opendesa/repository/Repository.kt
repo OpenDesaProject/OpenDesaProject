@@ -2,6 +2,7 @@ package com.example.opendesa.repository
 
 import com.example.opendesa.api.RetrofitInstance
 import com.example.opendesa.model.Berita
+import com.example.opendesa.model.Profil
 
 class Repository {
 
@@ -11,5 +12,9 @@ class Repository {
 
     suspend fun getSearch(): List<List<Berita>> {
         return RetrofitInstance.api.getSearch()
+    }
+
+    suspend fun getProfile(): Profil {
+        return RetrofitInstance.api.getProfil()
     }
 }
