@@ -15,6 +15,7 @@ import com.example.opendesa.databinding.FragmentDataDesaBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
+
 class DataDesaFragment : Fragment()
 {
     private var _binding: FragmentDataDesaBinding? = null

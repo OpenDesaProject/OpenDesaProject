@@ -16,6 +16,7 @@ object Dependencies {
     private const val moshi = "com.squareup.moshi:moshi-kotlin:1.13.0"
     private const val moshiConverter = "com.squareup.retrofit2:converter-moshi:2.9.0"
     private const val coil = "io.coil-kt:coil:2.2.2"
+    private const val prdownloader = "com.mindorks.android:prdownloader:0.6.0"
 
     //jetpack compose
     private const val materialThree = "androidx.compose.material3:material3:${Versions.materialThree}"
@@ -105,6 +106,7 @@ object Dependencies {
         add(timeAgo)
         add(composeDialogCore)
         add(composeDialogCalendar)
+        add(prdownloader)
     }
 
     val kspLibraries = arrayListOf<String>().apply {

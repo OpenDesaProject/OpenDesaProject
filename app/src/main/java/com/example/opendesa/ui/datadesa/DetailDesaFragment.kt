@@ -10,6 +10,7 @@ import com.example.opendesa.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
+
 class DetailDesaFragment(val desa: Desa) : DialogFragment() {
 
     override fun onCreateView(
