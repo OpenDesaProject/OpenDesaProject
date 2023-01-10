@@ -24,10 +24,6 @@ class BeritaDesaFragment : Fragment() {
         val viewModelFactory = BeritaDesaViewModelFactory(repository)
         beritaDesaViewModel = ViewModelProvider(this, viewModelFactory)[BeritaDesaViewModel::class.java]
         beritaDesaViewModel.getBeritaDesaa()
-        beritaDesaViewModel.beritaDesa.observe(this, Observer { response ->
-            Log.d("RESPONSE", response[0].title)
-            Log.d("RESPONSE", response[1].title)
-        })
     }
 
     override fun onCreateView(
