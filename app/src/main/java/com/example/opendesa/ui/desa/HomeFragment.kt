@@ -5,8 +5,8 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.opendesa.demodk.Helper
-import com.opendesa.demodk.R
+import com.example.opendesa.util.Helper
+import com.example.opendesa.R
 
 
 class HomeFragment : Fragment(R.layout.fragment_desa_home) {

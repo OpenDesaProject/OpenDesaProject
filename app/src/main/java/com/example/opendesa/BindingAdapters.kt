@@ -13,6 +13,7 @@ import com.example.opendesa.model.Berita
 import com.example.opendesa.ui.home.BeritaAdapter
 import com.example.opendesa.ui.beritadesa.BeritaDesaAdapter
 import com.example.opendesa.ui.home.BeritaApiStatus
+import com.example.opendesa.util.Helper
 import java.time.Instant
 import java.time.OffsetDateTime
 import java.time.format.DateTimeFormatter
@@ -109,4 +110,9 @@ fun bindDateBeritaHome(textView: TextView, date: String?) {
 
     val dateString: Date = Date.from(Instant.from(offsetDateTime))
     textView.text = dateString.toLocaleString()
+}
+
+@BindingAdapter("textFromHTML")
+fun bindTextHTML(textView: TextView, htmlString: String?){
+    textView.text = htmlString?.let { Helper.fromHTML(it) }
 }

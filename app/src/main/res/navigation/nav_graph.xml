@@ -54,17 +54,17 @@
     <fragment
         android:id="@+id/nav_geo"
         android:name="com.example.opendesa.ui.profildesa.GeografisFragment"
-        android:label="GeografisFragment" />
+        android:label="Letak Geografis" />
     <fragment
         android:id="@+id/nav_sejarah"
         android:name="com.example.opendesa.ui.profildesa.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="Sejarah" />
     <fragment
         android:id="@+id/nav_sp"
         android:name="com.example.opendesa.ui.profildesa.StrukturFragment"
-        android:label="StrukturFragment" />
+        android:label="Struktur Pemerintahan" />
     <fragment
         android:id="@+id/nav_vm"
         android:name="com.example.opendesa.ui.profildesa.VisiMisiFragment"
-        android:label="VisiMisiFragment" />
+        android:label="Visi Misi" />
 </navigation>
