@@ -12,7 +12,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.opendesa.R
 import com.example.opendesa.databinding.FragmentDataDesaBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DataDesaFragment : Fragment()
 {
     private var _binding: FragmentDataDesaBinding? = null

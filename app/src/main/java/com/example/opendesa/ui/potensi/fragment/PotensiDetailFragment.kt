@@ -12,8 +12,9 @@ import com.bumptech.glide.Glide
 import com.example.opendesa.databinding.FragmentPotensiDetailBinding
 import com.example.opendesa.ui.potensi.ViewModel.PotensiViewModel
 import com.example.opendesa.R
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class PotensiDetailFragment : Fragment(R.layout.fragment_potensi_detail) {
 
     private var _binding: FragmentPotensiDetailBinding?=null

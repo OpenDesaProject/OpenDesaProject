@@ -7,7 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
 import com.example.opendesa.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DetailDesaFragment(val desa: Desa) : DialogFragment() {
 
     override fun onCreateView(

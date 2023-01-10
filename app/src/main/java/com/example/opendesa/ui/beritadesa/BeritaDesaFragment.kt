@@ -10,8 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.opendesa.databinding.FragmentBeritaDesaBinding
 import com.example.opendesa.repository.Repository
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class BeritaDesaFragment : Fragment() {
 
     private lateinit var beritaDesaViewModel: BeritaDesaViewModel
